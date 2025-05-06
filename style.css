@@ -20,6 +20,7 @@ h1{
 nav{
   background-color: #ffffff;
   font-family: "DM Sans", sans-serif;
+  font-size: 17px;
   text-align: right;
   padding: 10px 70px;
   margin-left: auto;
@@ -34,22 +35,25 @@ h2{
   color: #ffffff;
   text-align: center;
 }
+h3{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 img{
   width: 500px;
   height: 300px;
 }
 #contenedor{
-  background-color: #fca311;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  justify-content: space-around;
+  background-color: #fca311; 
   width: 40%;
-  padding: 10px;
+  margin: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
+
 }
-.caption{
+figcaption{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
+  text-align: center;
 }
 p{
   font-family: "Montserrat", sans-serif;
